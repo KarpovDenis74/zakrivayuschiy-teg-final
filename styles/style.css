@@ -299,6 +299,7 @@
 }
 
 .content__card-text {
+  display: flex;
   flex-direction: column;
   gap: 27px;
   padding: 23px;
@@ -509,6 +510,7 @@
   justify-content: center;
   align-items: center;
   color: var(--main-color, #000000);
+  padding-block-end: 30px;
 }
 
 .diskette[open] .diskette__floppy {
